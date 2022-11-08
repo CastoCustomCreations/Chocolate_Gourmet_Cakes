@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Compile Remove="Services\JsonFileProductService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Services\JsonFileProductService.cs" />
   </ItemGroup>
 
 </Project>
